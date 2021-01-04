@@ -1,0 +1,116 @@
+img {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Helvetica Neue light', sans-serif;
+    color: black;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Helvetica Neue light', sans-serif;
+    color: black;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Helvetica Neue light', sans-serif;
+    color: black;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Helvetica Neue light', sans-serif;
+    color: black;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+
+@media (min-width: 800px) {
+
+    header {
+        position: relative;
+        height: 0;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    nav .menu {
+        display: inline-block;
+
+    }
+
+    nav a {
+        font-family: 'Helvetica Neue light', sans-serif;
+        color: black;
+        font-weight: 200;
+        text-transform: uppercase;
+        padding-left: 11vw;
+        padding-right: 11vw;
+        text-align: center;
+
+    }
+
+}
+
+
+@media (max-width: 800px) {
+
+    header {
+        position: relative;
+        height: 0;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    nav .menu {
+        display: inline-block;
+
+    }
+
+    nav a {
+        font-family: 'Helvetica Neue light', sans-serif;
+        color: black;
+        font-weight: 200;
+        text-transform: uppercase;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        text-align: center;
+
+    }
+
+}
+
+
+footer {
+    position: relative;
+    height: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.facebook {
+    width: 2rem;
+    height: 2rem;
+    padding-left: 11vw;
+    padding-right: 11vw;
+}
+
+.instagram {
+    width: 2rem;
+    height: 2rem;
+    padding-left: 11vw;
+    padding-right: 11vw;
+}
+
+linkedin {
+    width: 2rem;
+    height: 2rem;
+    padding-left: 11vw;
+    padding-right: 11vw;
+}
