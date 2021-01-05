@@ -1,3 +1,9 @@
+.col2 img {
+    border: 1px solid #875E20;
+}
+
+
+
 @media (min-width: 800px) {
 
 
@@ -16,7 +22,6 @@
     }
 
     .col1 {
-        /*     margin: 10vw;*/
         margin-right: 10vw;
         margin-top: 10vw;
         margin-bottom: 10vw;
@@ -55,11 +60,8 @@
 }
 
 img {
-    animation: fadeIn ease 10s;
-    -webkit-animation: fadeIn ease 10s;
-    -moz-animation: fadeIn ease 10s;
-    -o-animation: fadeIn ease 10s;
-    -ms-animation: fadeIn ease 10s;
+    animation: fadeIn ease 8s;
+    -moz-animation: fadeIn ease 8s;
 }
 
 @keyframes fadeIn {

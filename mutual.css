@@ -2,25 +2,32 @@ img {
     width: 100%;
 }
 
+nav {
+    border: 1px solid #939191;
+    padding: 0.5rem;
+}
+
 h1 {
     font-family: 'Helvetica Neue light', sans-serif;
     color: black;
-    font-weight: 200;
+    font-weight: 100;
     text-transform: uppercase;
 }
 
 h2 {
     font-family: 'Helvetica Neue light', sans-serif;
     color: black;
-    font-weight: 200;
+    font-weight: 100;
     text-transform: uppercase;
+    opacity: 80%;
 }
 
 h3 {
     font-family: 'Helvetica Neue light', sans-serif;
     color: black;
-    font-weight: 200;
+    font-weight: 100;
     text-transform: uppercase;
+    color: #5A5A5A;
 }
 
 p {
@@ -28,6 +35,7 @@ p {
     color: black;
     font-weight: 200;
     text-transform: uppercase;
+    color: #939191;
 }
 
 
@@ -47,19 +55,55 @@ p {
 
     nav a {
         font-family: 'Helvetica Neue light', sans-serif;
-        color: black;
+        color: #5A5A5A;
         font-weight: 200;
         text-transform: uppercase;
-        padding-left: 11vw;
-        padding-right: 11vw;
+        padding-left: 15vw;
+        padding-right: 12vw;
         text-align: center;
 
     }
+
+    footer {
+        position: relative;
+        height: 0;
+        box-sizing: border-box;
+        text-align: center;
+        margin: 2vw;
+        opacity: 70%;
+    }
+
+    .facebook {
+        width: 2rem;
+        height: 2rem;
+        padding-left: 11vw;
+        padding-right: 11vw;
+    }
+
+    .instagram {
+        width: 2rem;
+        height: 2rem;
+        padding-left: 11vw;
+        padding-right: 11vw;
+    }
+
+    .linkedin {
+        width: 2rem;
+        height: 2rem;
+        padding-left: 11vw;
+        padding-right: 11vw;
+    }
+
 
 }
 
 
 @media (max-width: 800px) {
+
+    main {
+        line-height: 1.7;
+    }
+
 
     header {
         position: relative;
@@ -76,7 +120,8 @@ p {
     nav a {
         font-family: 'Helvetica Neue light', sans-serif;
         color: black;
-        font-weight: 200;
+        font-weight: 100;
+        font-size: 1.5rem;
         text-transform: uppercase;
         padding-left: 5vw;
         padding-right: 5vw;
@@ -84,33 +129,35 @@ p {
 
     }
 
-}
+    footer {
+        position: relative;
+        height: 0;
+        box-sizing: border-box;
+        text-align: center;
+        margin: 2vw;
+        opacity: 70%;
+    }
+
+    .facebook {
+        width: 4rem;
+        height: 4rem;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .instagram {
+        width: 4rem;
+        height: 4rem;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .linkedin {
+        width: 4rem;
+        height: 4rem;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
 
 
-footer {
-    position: relative;
-    height: 0;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.facebook {
-    width: 2rem;
-    height: 2rem;
-    padding-left: 11vw;
-    padding-right: 11vw;
-}
-
-.instagram {
-    width: 2rem;
-    height: 2rem;
-    padding-left: 11vw;
-    padding-right: 11vw;
-}
-
-linkedin {
-    width: 2rem;
-    height: 2rem;
-    padding-left: 11vw;
-    padding-right: 11vw;
 }
