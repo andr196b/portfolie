@@ -157,56 +157,16 @@
 
 .logo2 {
     max-width: 10%;
-    opacity: 60%;
     padding: 1rem;
 }
 
 main {
-    animation: fadeIn ease 8s;
-    -moz-animation: fadeIn ease 8s;
+    animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
 }
 
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
 
 @-moz-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-o-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-ms-keyframes fadeIn {
     0% {
         opacity: 0;
     }

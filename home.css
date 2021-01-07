@@ -1,5 +1,5 @@
 .col2 img {
-    border: 1px solid #875E20;
+    border: 1px solid #DDDDDD;
 }
 
 
@@ -10,8 +10,6 @@
     #homepage .section_wrapper {
         display: grid;
         grid-template-columns: 1.7fr 1fr;
-
-
     }
 
     #homepage {
@@ -21,11 +19,25 @@
         margin-right: 7vw;
     }
 
+    /*
+    img {
+        transition: filter .3s ease-in-out;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+
+    img:hover {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+*/
+
     .col1 {
         margin-right: 10vw;
-        margin-top: 10vw;
+        margin-top: 12vw;
         margin-bottom: 10vw;
-        width: 70%;
+        margin-left: 7vw;
+        width: 60%;
     }
 
     .col2 {
@@ -60,51 +72,12 @@
 }
 
 img {
-    animation: fadeIn ease 8s;
-    -moz-animation: fadeIn ease 8s;
+    animation: fadeIn ease 6s;
+    -moz-animation: fadeIn ease 6s;
 }
 
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
 
 @-moz-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-o-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-ms-keyframes fadeIn {
     0% {
         opacity: 0;
     }

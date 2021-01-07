@@ -12,10 +12,6 @@
      padding: 1rem;
  }
 
- .logo2 {
-     max-width: 5%;
-     opacity: 60%;
- }
 
  .overskriftbottom {
      text-align: center;
@@ -24,7 +20,25 @@
  }
 
 
+ img {
+     transition: filter .3s ease-in-out;
+     -webkit-filter: grayscale(100%);
+     filter: grayscale(100%);
+ }
+
+ img:hover {
+     -webkit-filter: grayscale(0%);
+     filter: grayscale(0%);
+ }
+
+
  @media (min-width: 800px) {
+
+     .logo2 {
+         max-width: 5%;
+
+     }
+
      #first_section .section_wrapper {
          text-align: center;
          padding-top: 3rem;
@@ -54,7 +68,7 @@
          display: grid;
          grid-template-columns: 1fr 2fr;
          grid-gap: 2rem;
-         border: 3px solid #505F4C;
+         border: 3px solid #8B9887;
          padding: 1rem;
      }
 
@@ -62,58 +76,68 @@
          display: grid;
          grid-template-columns: 2fr 1fr;
          grid-gap: 2rem;
+         border: 3px solid #505F4C;
+         padding: 1rem;
+     }
+ }
+
+
+ @media (max-width: 800px) {
+
+     .logo2 {
+         max-width: 15%;
+         opacity: 60%;
+     }
+
+     #first_section .section_wrapper {
+         text-align: center;
+         padding-top: 2rem;
+         font-size: 2rem;
+         grid-gap: 2rem;
+     }
+
+
+     #second_section .section_wrapper {
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-gap: 2rem;
+         border: 3px solid #C8A569;
+         padding: 1rem;
+
+     }
+
+     #third_section .section_wrapper {
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-gap: 2rem;
+         border: 3px solid #875E20;
+         padding: 1rem;
+     }
+
+     #fourth_section .section_wrapper {
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-gap: 2rem;
          border: 3px solid #8B9887;
+         padding: 1rem;
+     }
+
+     #fifth_section .section_wrapper {
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-gap: 2rem;
+         border: 3px solid #505F4C;
          padding: 1rem;
      }
  }
 
 
  main {
-     animation: fadeIn ease 8s;
-     -moz-animation: fadeIn ease 8s;
- }
-
- @keyframes fadeIn {
-     0% {
-         opacity: 0;
-     }
-
-     100% {
-         opacity: 1;
-     }
+     animation: fadeIn ease 4s;
+     -moz-animation: fadeIn ease 4s;
  }
 
  @-moz-keyframes fadeIn {
-     0% {
-         opacity: 0;
-     }
-
-     100% {
-         opacity: 1;
-     }
- }
-
- @-webkit-keyframes fadeIn {
-     0% {
-         opacity: 0;
-     }
-
-     100% {
-         opacity: 1;
-     }
- }
-
- @-o-keyframes fadeIn {
-     0% {
-         opacity: 0;
-     }
-
-     100% {
-         opacity: 1;
-     }
- }
-
- @-ms-keyframes fadeIn {
      0% {
          opacity: 0;
      }
